@@ -1,0 +1,87 @@
+.block1 {
+  width: 10px;
+  height: 50px;
+  background-color: greenyellow;
+  animation-name: block1;
+  animation-duration: 3s;
+}
+@keyframes block1 {
+  from {
+    width: 10px;
+    background-color: greenyellow;
+  }
+  10% {
+    width: 40px;
+    background-color: aqua;
+  }
+  50% {
+    width: 30px;
+    background-color: brown;
+  }
+  75% {
+    width: 50%;
+    background-color: blueviolet;
+  }
+  to {
+    width: 100%;
+    background-color: darkorchid;
+  }
+}
+.block2 {
+  width: 10px;
+  height: 50px;
+  background-color: red;
+  animation-name: block2;
+  animation-duration: 5s;
+}
+@keyframes block2 {
+  from {
+    width: 10px;
+    background-color: red;
+  }
+  10% {
+    width: 40px;
+    background-color: green;
+  }
+  50% {
+    width: 30px;
+    background-color: gold;
+  }
+  75% {
+    width: 10px;
+    background-color: blanchedalmond;
+  }
+  to {
+    width: 100%;
+    background-color: burlywood;
+  }
+}
+.block3 {
+  width: 10px;
+  height: 50px;
+  background-color: palevioletred;
+  animation-name: block3;
+  animation-duration: 6s;
+}
+@keyframes block3 {
+  from {
+    width: 10px;
+    background-color: palevioletred;
+  }
+  10% {
+    width: 40px;
+    background-color: rgb(0, 28, 128);
+  }
+  50% {
+    width: 40%;
+    background-color: rgb(177, 166, 106);
+  }
+  75% {
+    width: 20%;
+    background-color: rgb(207, 255, 205);
+  }
+  to {
+    width: 100%;
+    background-color: rgb(179, 0, 0);
+  }
+}
